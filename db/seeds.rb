@@ -5,3 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+session1 = Session.create
+session1.players.create(name: "William", score: 5)
+session1.players.create(name: "Rocio", score: 10)
+session1.players.create(name: "Kevin", score: 6)
+session1.players.create(name: "Natasha", score: 8)
+session1.players.create(name: "Erika", score: 4)
+session1.players.create(name: "Fenix", score: 5)
+
+session2 = Session.create
+session2.players.create(name: "Rob", score: 8)
+session2.players.create(name: "Caroline", score: 6)
+session2.players.create(name: "Josh", score: 9)
+session2.players.create(name: "Chris", score: 4)
+session2.players.create(name: "Deb", score: 3)
