@@ -16,7 +16,7 @@ class Api::PlayersController < ApplicationController
   def destroy
     player = Player.find(params[:id])
     if player.destroy
-      render json: "Successfully deleted"
+      render json: player
     else
       render json: { message: player.errors}, status: 400
     end
