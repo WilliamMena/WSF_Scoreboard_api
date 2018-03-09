@@ -20,3 +20,10 @@ session2.players.create(name: "Caroline", score: 6)
 session2.players.create(name: "Josh", score: 9)
 session2.players.create(name: "Chris", score: 4)
 session2.players.create(name: "Deb", score: 3)
+
+session3 = Session.create
+session3.players.create(name: "Tami", score: 8)
+session3.players.create(name: "Caroline", score: 52)
+session3.players.create(name: "Jennifer", score: 9)
+session3.players.create(name: "Terry", score: 4)
+session3.players.create(name: "Vince", score: 3)
